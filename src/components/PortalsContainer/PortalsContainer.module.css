@@ -1,0 +1,7 @@
+.container {
+    position: fixed;
+    min-width: 100w;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+}

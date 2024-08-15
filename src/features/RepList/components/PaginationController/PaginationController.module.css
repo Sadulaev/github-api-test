@@ -1,0 +1,47 @@
+.container {
+    width: 100vw;
+    height: 4rem;
+    background-color: #646cff;
+    z-index: 100;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.pageNumber {
+    padding: 0.5rem;
+    min-width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+}
+
+.pageNumber:hover {
+    cursor: pointer;
+    background-color: #d2d2d2;
+    color: #646cff;
+    transition: .3s;
+}
+
+.currentPageNumber {
+    width: 2rem;
+    height: 2rem;
+    transform: scale(1.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #646cff;
+    border-radius: 0.25rem;
+}

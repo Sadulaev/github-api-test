@@ -1,0 +1,24 @@
+.buttonStyle {
+    border-radius: 0.25rem;
+    border: 2px solid transparent;
+    padding: 0 1.2em;
+    font-size: 1.25em;
+    line-height: .5;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: #646cff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.buttonStyle:hover {
+    background-color: #ffffff;
+    color: #646cff;
+    border-color: #646cff;
+    transition: all 0.3s;
+}
+
+.buttonStyle:active {
+    background-color: #d3d7ed;
+}
